@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title><%= title %></title>
+    <%-  include("../include/meta.html"); %>
+    <link rel='stylesheet' href='/css/validation_inscription.css' />
+</head>
+
+<body>
+    <div id="container">
+        <!-- le menu principale -->
+        <%-  include("../include/main_menu.html"); %>
+        <div class="content validation">
+            
+            <div class="content">
+                <h3 class="title is-3 has-text-centered">Vous avez récu un code de validation par mail.</h3>
+            </div>
+            <form action="/inscription/validation" class="validation_inscription">
+                <div class="field">
+                    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input py-5 is-focused" type="text" placeholder="Siassisez le code de validation">
+                        <span class="icon is-small is-left">
+                            <ion-icon name="key" class="ionicons"></ion-icon>
+                        </span>
+                       
+                    </p>
+                </div>
+                <div class="content">
+                    <button class="button is-link py-5">ENVOYER LE CODE</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

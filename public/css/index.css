@@ -1,0 +1,18 @@
+
+div#container , div.main_home {
+    height: 100vh;
+    vertical-align: middle !important;
+}
+
+img.tchatcha_illustration {
+    width: 100%;
+    height: 100vh;
+    /* border-bottom-right-radius: 50%; */
+}
+
+
+div.main_desc h1 {
+    font-size: 4em !important;
+    font-weight: lighter;
+    
+}

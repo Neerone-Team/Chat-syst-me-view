@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<%= description %>">
+    <title><%= title %></title>
+    <%- include("../include/meta.html"); %>
+    <link rel="stylesheet" href="/css/connexion.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="columns main_contain_register">
+
+            
+            <div class="column form_register is-6">
+                <div class="content form">
+                    <div class="content home_app">
+                        <h2 class="title is-4 home_app ">
+                            <a href="/">TCHAT-CHEUR</a>
+                        </h2>
+                    </div>
+                    <br>
+                    <div class="content">
+                        <h2 class="title form_desc is-5 ">
+                            Connectez-vous à votre app préférer et commencer à tchatcha.
+                        </h2>
+                    </div>
+                    <form action="/inscription" method="POST">
+
+
+                        <!-- champ email -->
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input py-5" type="text" placeholder="Entrez votre email">
+
+                                <span class="icon is-small is-left">
+                                    <ion-icon name="mail" class="ionicons"></ion-icon>
+                                </span>
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <p class="control has-icons-left has-icons-right">
+                                <input class="input py-5" type="text" placeholder="Siassisez votre mot de passe">
+
+                                <span class="icon is-small is-left">
+                                    <ion-icon name="lock-closed" class="ionicons"></ion-icon>
+                                </span>
+                            </p>
+                        </div>
+
+                    
+                        <div class="content py-2">
+                            <label class="checkbox">
+                                <input type="checkbox" >
+                                Se souvenir de moi
+                            </label>
+                        </div>
+
+                        <div class="content send_form">
+                            <button class="button send_form is-link px-3 py-5">CONNEXION</button>
+                        </div>
+
+                        <div class="content py-4">
+                            Pas encore de compte ? <a href="/inscription">créer en un maintenant</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="column side_image is-6 px-6 py-6">
+                <div class="content">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- auteur d'image
+
+
+Image par <a href="https://pixabay.com/fr/users/bananayota-20054590/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5956897">Bananayota</a> de <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5956897">Pixabay</a>
+
+
+Image par <a href="https://pixabay.com/fr/users/sanuas-16140995/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5069845">Sanu A S</a> de <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5069845">Pixabay</a>
+
+Image par <a href="https://pixabay.com/fr/users/sanuas-16140995/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5069842">Sanu A S</a> de <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5069842">Pixabay</a>
+-->

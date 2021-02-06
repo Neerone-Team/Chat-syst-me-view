@@ -1,0 +1,61 @@
+*::after , *::before , *{ 
+    position: relative;
+}
+
+div#container , div.columns.main_contain_register , div.columns.main_contain_register > div {
+    height: 110vh;
+}
+
+div.column.side_image {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #1B1464;
+    background-image: url("/images/people-discussion-5069845_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: inherit;
+}
+
+h1.title_register {
+    font-size: 4em !important;
+    font-weight: lighter;
+}
+
+
+
+/*************************** SECTION DU FORMULAIRE ************************* */
+
+h2.home_app a{
+    font-family: 'Pacifico', cursive !important;
+    color: #0652DD;
+    font-weight: bold;
+}
+
+h2.form_desc {
+    opacity: .8;
+    font-weight: lighter;
+}
+
+div.content.form {
+    max-width: 380px;
+    width: 40%;
+    margin: 80px auto;
+}
+
+div.content.form > form{
+    
+    width: 100%;
+}
+
+.ionicons {
+    top: 5px;
+}
+
+
+button.send_form {
+    width: 100%;
+    font-weight: bold;
+}

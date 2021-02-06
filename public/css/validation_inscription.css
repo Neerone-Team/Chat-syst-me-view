@@ -1,0 +1,21 @@
+
+div.content.validation {
+
+    width: 35%;
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+div.content.validation form {
+    width: 100%;
+}
+
+div.content.validation h3 {
+
+    font-weight: lighter;
+}
+
+.ionicons {
+    top: 5px;
+    position: relative;
+}
